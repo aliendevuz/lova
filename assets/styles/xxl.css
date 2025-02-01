@@ -1,0 +1,117 @@
+body {
+    color: white;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #3a3e45ff;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+    max-width: 1440px;
+    width: 90%;
+    z-index: 100;
+    position: relative;
+}
+
+.wave {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    z-index: 99;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.logo p {
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#menu-btn,
+#close-btn {
+    display: none;
+}
+
+main {
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1;
+    width: 100%;
+}
+
+section {
+    min-height: calc(100vh - 120px);
+    background-color: white;
+    position: sticky;
+    color: black;
+}
+
+#hero {
+    background-color: #3a3e45ff;
+    position: sticky;
+    color: white;
+    top: 100px;
+}
+
+.large-header {
+	position: absolute;
+    width: 100vw;
+}
+
+
+#hero img {
+    width: 500px;
+    filter: drop-shadow(2rem 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+    position: relative;
+}
+
+.container{
+
+    margin-inline: auto;
+    max-width: 1440px;
+    width: 90%;
+}
